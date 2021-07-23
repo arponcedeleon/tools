@@ -1,0 +1,151 @@
+
+  html, body {
+		overflow: hidden;
+		margin: 0 !important;
+		padding: 0 !important;
+		background-color:#424242;
+	}
+	#content {
+		width: 100%;
+	}
+	h1, h2 {
+		background: -moz-linear-gradient(bottom, rgb(233, 191, 7) 2%, #f8ac00 51%, #fac754 87%);
+		background: -webkit-linear-gradient(bottom, rgb(233, 191, 7) 2%, #f8ac00 51%, #fac754 87%);
+		background: linear-gradient(to top bottom, rgb(233, 191, 7) 2%, #f8ac00 51%, #fac754 87%);
+		-moz-background-clip: text; 
+		-webkit-background-clip: text; 
+		background-clip: text; 
+		-moz-text-fill-color: transparent;
+		-webkit-text-fill-color: transparent;
+		-ms-text-fill-color: transparent;
+		display: inline;
+	}
+	h3   {color: white;}
+	#contentA {
+		text-align: center;
+		width: 50%;
+		padding: .7em;
+		list-style: none;
+		background: #444;
+		background: rgba(0,0,0,.2);
+		-moz-border-radius: .5em;
+		-webkit-border-radius: .5em;
+		border-radius: .5em;    
+		-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+		-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+		box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+	}
+	table.table1{
+	   font-family: "Trebuchet MS", sans-serif;
+	   font-size: 16px;
+	   font-weight: bold;
+	   line-height: 1.4em;
+	   font-style: normal;
+	   border-collapse:separate;   
+	}
+	.table1 thead th{
+	   padding:15px;
+	   color:#fff;
+	   text-shadow:1px 1px 1px #568F23;
+	   border:1px solid #93CE37;
+	   border-bottom:3px solid #9ED929;
+	   background-color:#9DD929;
+	   background:-webkit-gradient(
+		   linear,
+		   left bottom,
+		   left top,
+		   color-stop(0.02, rgb(123,192,67)),
+		   color-stop(0.51, rgb(139,198,66)),
+		   color-stop(0.87, rgb(158,217,41))
+		   );
+	   background: -moz-linear-gradient(
+		   center bottom,
+		   rgb(123,192,67) 2%,
+		   rgb(139,198,66) 51%,
+		   rgb(158,217,41) 87%
+		   );
+	   -webkit-border-top-left-radius:5px;
+	   -webkit-border-top-right-radius:5px;
+	   -moz-border-radius:5px 5px 0px 0px;
+	   border-top-left-radius:5px;
+	   border-top-right-radius:5px;
+	   -ms-border-top-left-radius:5px;
+	   -ms-border-top-right-radius:5px;
+	}
+
+	.table1 thead th:empty{
+	   background:transparent;
+	   border:none;
+	}
+
+	.table1 tbody td{
+	   padding:10px;
+	   text-align:center;
+	   background-color:#DEF3CA;
+	   border: 2px solid #E7EFE0;
+	   -moz-border-radius:2px;
+	   -webkit-border-radius:2px;
+	   border-radius:2px;
+	   color:#666;
+	   text-shadow:1px 1px 1px #fff;
+	}
+	
+	.myButton {
+		-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #f8ac00));
+		background:-moz-linear-gradient(top, #ffc477 5%, #f8ac00 100%);
+		background:-webkit-linear-gradient(top, #ffc477 5%, #f8ac00 100%);
+		background:-o-linear-gradient(top, #ffc477 5%, #f8ac00 100%);
+		background:-ms-linear-gradient(top, #ffc477 5%, #f8ac00 100%);
+		background:linear-gradient(to bottom, #ffc477 5%, #f8ac00 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#f8ac00',GradientType=0);
+		background-color:#ffc477;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		border-radius:3px;
+		border:1px solid #eeb44f;
+		display:inline-block;
+		cursor:pointer;
+		color:#424242;		   
+		font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+		font-size:13px;
+		font-weight:bold;
+		padding:6px 24px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #cc9f52;
+	}
+	.myButton:hover {
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f8ac00), color-stop(1, #ffc477));
+		background:-moz-linear-gradient(top, #f8ac00 5%, #ffc477 100%);
+		background:-webkit-linear-gradient(top, #f8ac00 5%, #ffc477 100%);
+		background:-o-linear-gradient(top, #f8ac00 5%, #ffc477 100%);
+		background:-ms-linear-gradient(top, #f8ac00 5%, #ffc477 100%);
+		background:linear-gradient(to bottom, #f8ac00 5%, #ffc477 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8ac00', endColorstr='#ffc477',GradientType=0);
+		background-color:#f8ac00;
+	}
+	.myButton:active {
+		position:relative;
+	   top:1px;
+	   -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	   -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	   box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	}
+	#footerpage {
+		clear: both;
+		background: #121212;
+		height: 40px;
+		width: 100%;
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		text-align: center;
+		box-shadow:0px -1px 10px 1px #000; }
+
+	table.tblfooter {
+		size: 12px;
+		font-family: 'Courier New', Courier, monospace;
+		color: #FFF;
+		font-size: 12px; }
