@@ -5,6 +5,16 @@
 		padding: 0 !important;
 		background-color:#424242;
 	}
+div.scroll {
+			display: block; 			
+			width: 896px;
+			height: 768px; 
+			overflow: auto; 
+			overflow-y: scroll;
+			overflow-x: scroll;
+			white-space: nowrap; 
+			padding-bottom: 20px;
+		} 
 	#content {
 		width: 100%;
 	}
